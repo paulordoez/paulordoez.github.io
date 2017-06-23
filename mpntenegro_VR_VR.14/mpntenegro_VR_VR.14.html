@@ -21,17 +21,17 @@
         var nameOfDiv = "KeyShotVR";
         var folderName = "mpntenegro_VR_VR.14";
         var viewPortWidth = 730;
-        var viewPortHeight = 600;
-        var backgroundColor = "#FFFFFF";
+        var viewPortHeight = 700;
+        var backgroundColor = ;
         var uCount = 710;
         var vCount = 1;
         var uWrap = true;
-        var vWrap = true;
+        var vWrap = false;
         var uMouseSensitivity = -1;
         var vMouseSensitivity = 0.00625;
         var uStartIndex = 420;
         var vStartIndex = 0;
-        var minZoom = 1;
+        var minZoom = 8;
         var maxZoom = 8.01;
         var rotationDamping = 0.9;
         var downScaleToBrowser = true;
@@ -41,8 +41,8 @@
         var showLoading = true;
         var loadingIcon = "logo matisse vr.png"; // Set to empty string for default icon.
         var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
-        var uReverse = true;
-        var vReverse = true;
+        var uReverse = false;
+        var vReverse = false;
         var hotspots = {};
         
         keyshotVR = new keyshotVR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots);
